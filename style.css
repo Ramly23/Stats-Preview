@@ -39,10 +39,8 @@ body {
 }
 
 .attribution {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 925px;
 }
 
 .row {
@@ -217,6 +215,11 @@ body {
         position: relative;
         bottom: 45px;
         color:hsla(0, 0%, 100%, 0.6);
+    }
+
+    .attribution {
+        position: relative;
+        top: 880px;
     }
 }
 
