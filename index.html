@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: white; font-family: 'Lexend Deca', sans-serif;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <section class = 'background'>
+      <div class="row hide-for-mobile">
+        <div class="col">
+          <div class="flex align">
+            <h1>Get <span>insights</span> that help<br>your business grow.
+          </div>
+
+          <div class="flex">
+            <p>Discover the benefits of data analytics and make<br>better decisions regarding revenue, customer<br>experience, and overall effciency.</p>
+          </div>
+
+          <div class="second-row hide-for-mobile flex">
+            <div class="second-col">
+              <div class="flex">
+                <h2 class = 'ten-k'>10k+</h2>
+              </div>
+
+              <div class="flex second-align">
+                <span>COMPANIES</span>
+              </div>
+            </div>
+
+            <div class="second-col">
+              <div class="flex">
+                <h2 class = 'ten-k'>314</h2>
+              </div>
+
+              <div class="flex second-align">
+                <span class = 'templates'>TEMPLATES</span>
+              </div>
+            </div>
+
+            <div class="second-col">
+              <div class="flex">
+                <h2 class = 'million'>12m+</h2>
+              </div>
+
+              <div class = 'flex second-align'>
+                <span>QUERIES</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="overlay hide-for-mobile"></div>
+          <div class="col">
+              <img class = 'pictures' src="images/image-header-desktop.jpg" alt="Pictures">
+          </div>
+      </div>
+
+      <!-- Mobile -->
+      <div class="mobile-overlay hide-for-desktop"></div>
+        <div class="mobile-img hide-for-desktop">
+          <img src="images/image-header-mobile.jpg" alt="Mobile Pictures">
+        </div>
+
+        <div class="flex hide-for-desktop">
+          <div class="first-section-mobile">
+            <h1>Get <span>insights</span> that<br>help your business<br>grow.
+            <p class = 'mobile-p'>Discover the benefits of data<br>analytics and make better decisions<br>regarding revenue, customer<br>experience, and overall effciency.</p>
+          </div>
+        </div>
+
+        <div class="row-mobile">
+          <div class="mobile-col">
+            <div class="flex">
+              <h2 class = 'h2'>10k+</h2>
+            </div>
+
+            <div class="flex">
+              <span class = 'companies'>COMPANIES</span>
+            </div>
+          </div>
+
+          <div class="mobile-col">
+            <div class="flex">
+              <h2 class = 'three-one-four'>314</h2>
+            </div>
+
+            <div class="flex">
+              <span class = 'templates'>TEMPLATES</span>
+            </div>
+          </div>
+
+          <div class="mobile-col">
+            <div class="flex">
+              <h2 class = 'twelve-million'>12m+</h2>
+            </div>
+
+            <div class = 'flex'>
+              <span class = 'queries'>QUERIES</span>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ramly</a>.
+    </div>
+  </footer>
+</body>
+</html>

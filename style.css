@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Lexend Deca', sans-serif; */
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.3;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    background: hsl(233, 47%, 7%);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    width: 1200px;
+    height: 450px;
+    background: hsl(244, 38%, 16%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+.col h1 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.col span {
+    color: hsl(277, 64%, 61%);
+}
+
+.col p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+    position: relative;
+    right: 40px;
+} 
+
+.pictures {
+    width: 105%;
+}
+
+.overlay {
+    width: 600px;
+    height: 500px;
+    background: hsla(277, 64%, 61%, 0.75);
+    position: absolute;
+    left: 50%;
+}
+
+.align {
+    position: relative;
+    top: 20px;
+}
+
+.second-row {
+    display: flex;
+    position: relative;
+    top: 10px;
+}
+
+.second-col {
+    flex-basis: 20%;
+    position: relative;
+    right: 70px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.templates {
+    position: relative;
+    left: 3px;
+}
+
+.million {
+    position: relative;
+    left: 18px;
+    top: 10px;
+}
+
+.ten-k {
+    position: relative;
+    top: 10px;
+}
+
+.second-align {
+    position: relative;
+    left: 20px;
+}
+
+.second-align span{
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+@media(min-width: 767px) {
+    .hide-for-desktop {
+        display: none;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .hide-for-mobile {
+        display: none;
+    }
+
+    .background {
+        width: 320px;
+        height: 750px;
+    }
+
+    .mobile-img img{
+        width: 100%;
+        opacity: 0.4;
+    }
+
+    .mobile-overlay {
+        width: 320px;
+        height: 235px;
+        background:hsla(277, 64%, 61%, 0.75);
+        position: absolute;
+    }
+
+    .first-section-mobile h1{
+        color: white;
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .first-section-mobile span {
+        color: hsl(277, 64%, 61%);
+    }
+
+    .mobile-p {
+        color:hsla(0, 0%, 100%, 0.75);
+        font-size: 16px;
+        line-height: 1.7;
+        font-weight: 500; 
+    }
+
+    .row-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-col {
+        color: hsl(0, 0%, 100%);
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .companies {
+        position: relative;
+        bottom: 30px;
+        color:hsla(0, 0%, 100%, 0.6);
+    }
+
+    .h2 {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .three-one-four {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .templates {
+        position: relative;
+        bottom: 40px;
+        left: 0;
+        color:hsla(0, 0%, 100%, 0.6);
+    }
+
+    .twelve-million {
+        position: relative;
+        bottom: 35px;
+    }
+
+    .queries {
+        position: relative;
+        bottom: 45px;
+        color:hsla(0, 0%, 100%, 0.6);
+    }
+}
+
