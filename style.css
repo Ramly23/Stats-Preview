@@ -171,6 +171,10 @@ body {
         font-size: 16px;
         line-height: 1.7;
         font-weight: 500; 
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
     }
 
     .row-mobile {
@@ -185,35 +189,35 @@ body {
 
     .companies {
         position: relative;
-        bottom: 30px;
+        bottom: 40px;
         color:hsla(0, 0%, 100%, 0.6);
     }
 
     .h2 {
         position: relative;
-        bottom: 20px;
+        bottom: 30px;
     }
 
     .three-one-four {
         position: relative;
-        bottom: 30px;
+        bottom: 40px;
     }
 
     .templates {
         position: relative;
-        bottom: 40px;
+        bottom: 50px;
         left: 0;
         color:hsla(0, 0%, 100%, 0.6);
     }
 
     .twelve-million {
         position: relative;
-        bottom: 35px;
+        bottom: 45px;
     }
 
     .queries {
         position: relative;
-        bottom: 45px;
+        bottom: 55px;
         color:hsla(0, 0%, 100%, 0.6);
     }
 
